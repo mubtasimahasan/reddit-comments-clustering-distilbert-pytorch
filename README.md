@@ -17,3 +17,9 @@ This project utilizes Natural Language Processing (NLP) techniques to classify t
 1. Ensure all required libraries are installed. You can install them using `pip install -r requirements.txt`.
 2. Modify the configuration file (`configs/config.yaml`) if necessary to adjust hyperparameters or settings.
 3. Run the `cli.py` script to execute the project.
+
+## Notebooks
+
+- [Kaggle_Script_Execution.ipynb](Kaggle_Script_Execution.ipynb): This notebook demonstrates how to clone this project in Kaggle and execute the `cli.py` script. Please note that the script is executed in debug mode, set to true, and runs for 2 epochs.
+
+- [Traditional_Notebook.ipynb](Traditional_Notebook.ipynb): This notebook provides a traditional Jupyter Notebook version of this project, showcasing the entire training and evaluation process.
