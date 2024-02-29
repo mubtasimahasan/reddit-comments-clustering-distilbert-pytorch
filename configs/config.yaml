@@ -1,0 +1,18 @@
+device: "cuda"
+seed: 42
+model_name: "distilbert-base-uncased"
+num_labels: null 
+max_length: 512
+debug: false
+n_epochs: 3
+max_steps: -1
+batch_size: 16
+learning_rate: 2e-5
+warmup_steps: 500
+weight_decay: 0.01
+logging_steps: 100
+save_steps: 100
+evaluation_strategy: "steps"
+load_best_model_at_end: true
+report_to: "none"
+
